@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+}
+
+header{
+    /*padding: 2vh 0vh 0vh 0vh;*/
+    width: 100vw;
+    height: 15vh;
+    background-color: salmon;
+}
+
+.title-register{
+    text-align: center;
+    font-size: 45px;
+}
+
+/*-------------------------------------------------*/

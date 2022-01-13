@@ -8,10 +8,10 @@
 }
 
 header{
-    /*padding: 2vh 0vh 0vh 0vh;*/
+    padding: 2vh 0vh 0vh 0vh;
     width: 100vw;
     height: 15vh;
-    background-color: salmon;
+    /*background-color: salmon;*/
 }
 
 .title-register{
@@ -20,3 +20,41 @@ header{
 }
 
 /*-------------------------------------------------*/
+main{
+    width: 100vw;
+    height: 70vh;
+    /*text-align: center;*/
+    background-color: aqua;
+}
+
+.container-register{
+    width: inherit;
+    height: inherit;
+    overflow-y: auto;
+}
+
+.container-register-usu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.container-eti-campos{
+    width: 30%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+.container-campos-usu{
+    width: 70%;
+    height: 100%;
+    background-color: khaki;
+}
+
+/*-------------------------------------------------*/
+footer{
+    width: 100vw;
+    height: 15vh;
+    /*display: flex;*/
+    background-color: chartreuse;
+}

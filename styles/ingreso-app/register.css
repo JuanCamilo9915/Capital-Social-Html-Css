@@ -42,15 +42,74 @@ main{
 .container-eti-campos{
     width: 30%;
     height: 100%;
+    position: relative;
     background-color: lightblue;
+}
+
+.eti-campo-usu-1,
+.eti-campo-usu-2,
+.eti-campo-usu-3,
+.eti-campo-usu-4,
+.eti-campo-usu-5,
+.eti-campo-usu-6,
+.eti-campo-usu-7,
+.eti-campo-usu-8{
+    font-size: 25px;
+}
+
+.eti-campo-usu-1{
+    position: absolute;
+    top: 5%;
+}
+
+.eti-campo-usu-2{
+    position: absolute;
+    top: 10%;
+}
+
+.eti-campo-usu-3{
+    position: absolute;
+    top: 15%;
+}
+
+.eti-campo-usu-4{
+    position: absolute;
+    top: 20%;
+}
+
+.eti-campo-usu-5{
+    position: absolute;
+    top: 25%;
+}
+
+.eti-campo-usu-6{
+    position: absolute;
+    top: 30%;
+}
+
+.eti-campo-usu-7{
+    position: absolute;
+    top: 35%;
+}
+
+.eti-campo-usu-8{
+    position: absolute;
+    top: 40%;
 }
 
 .container-campos-usu{
     width: 70%;
     height: 100%;
+    position: relative;
     background-color: khaki;
 }
 
+.btn-register{
+    width: 100%;
+    height: 15%;
+    position: relative;
+    background-color: ivory;
+}
 /*-------------------------------------------------*/
 footer{
     width: 100vw;

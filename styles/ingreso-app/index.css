@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+}
+
+header{
+    padding: 2vh 0vh 0vh 0vh;
+    width: 100vw;
+    height: 15vh;
+    /*background-color: salmon;*/
+}
+
+.title-login{
+    text-align: center;
+    font-size: 45px;
+}
+
+main{
+    width: 100vw;
+    height: 70vh;
+    text-align: center;
+    /*background-color: aqua;*/
+}
+
+.inputs-login{
+    padding: 7vh 0vh 0vh 0vh;
+    width: 100%;
+    height: 70%;
+    /*background-color: coral;*/
+}
+
+.container-eti-campos{
+    width: 30%;
+    height: auto;
+   /*background-color: #99ffc4;*/
+}
+
+.eti-campo-usu{
+    font-size: 25px;
+}
+
+.eti-campo-pass{
+    padding: 0vh 0vh 0vh 20vh;
+    font-size: 25px;
+}
+
+#campo-usu{
+    width: 60%;
+    height: 20%;
+}
+
+#campo-pass{
+    width: 50%;
+    height: 20%;
+}
+
+#campo-usu, #campo-pass{
+    font-size: 2em;
+    text-align: center;
+    border: 0px;
+    background-color: #99ffc4;
+}
+
+.btns-enlace{
+    padding: 5vh 0vh 0vh 0vh;
+    width: 100%;
+    height: 30%;
+    /*background-color: silver;*/
+}
+
+.btns-login{
+    width: 15%;
+    height: 35%;
+    font-size: 23px;
+    background-color: slategray;
+}
+
+.btns-login > a{
+    color: white;
+}
+
+.enlace-recu-pass{
+    font-size: 23px;
+    color: steelblue;
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    /*background-color: chartreuse;*/
+}
+
+.container-copy{
+    width: 70%;
+    height: 100%;
+    /*background-color: crimson;*/
+}
+
+.paragraph-copy{
+    padding: 5vh 17vh 0vh 0vh;
+    text-align: end;
+    font-size: 25px;
+}
+
+.container-img-u{
+    padding: 2vh 0vh 0vh 0vh;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    /*background-color: sienna;*/
+}
+
+.dim-img{
+    width: 80px;
+    height: 80px;
+}

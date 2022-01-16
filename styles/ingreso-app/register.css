@@ -23,8 +23,7 @@ header{
 main{
     width: 100vw;
     height: 70vh;
-    /*text-align: center;*/
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 
 .container-register{
@@ -43,7 +42,6 @@ main{
     width: 30%;
     height: 100%;
     position: relative;
-    background-color: lightblue;
 }
 
 .eti-campo-usu-1,
@@ -54,66 +52,205 @@ main{
 .eti-campo-usu-6,
 .eti-campo-usu-7,
 .eti-campo-usu-8{
+    position: absolute;
     font-size: 25px;
 }
 
 .eti-campo-usu-1{
-    position: absolute;
-    top: 5%;
+    top: 10%;
+    left: 30%;
 }
 
 .eti-campo-usu-2{
-    position: absolute;
-    top: 10%;
+    top: 20%;
+    left: 10%;
 }
 
 .eti-campo-usu-3{
-    position: absolute;
-    top: 15%;
+    top: 30%;
+    left: 10%;
 }
 
 .eti-campo-usu-4{
-    position: absolute;
-    top: 20%;
+    top: 40%;
+    left: 15%;
 }
 
 .eti-campo-usu-5{
-    position: absolute;
-    top: 25%;
+    top: 50%;
+    left: 30%;
 }
 
 .eti-campo-usu-6{
-    position: absolute;
-    top: 30%;
+    top: 60%;
+    left: 15%;
 }
 
 .eti-campo-usu-7{
-    position: absolute;
-    top: 35%;
+    top: 70%;
+    left: 25%;
 }
 
 .eti-campo-usu-8{
-    position: absolute;
-    top: 40%;
+    top: 80%;
+    left: 30%;
 }
 
 .container-campos-usu{
     width: 70%;
     height: 100%;
     position: relative;
-    background-color: khaki;
+}
+
+#campos-usu-register-1,
+#campos-usu-register-2,
+#campos-usu-register-3,
+#campos-usu-register-4,
+#campos-usu-register-5,
+#campos-usu-register-6,
+#campos-usu-register-7{
+    width: 80%;
+    height: 7%;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    border: 0px;
+    left: 10%;
+    background-color: #99ffc4;
+}
+
+#campos-usu-register-1{
+    top: 10%;
+}
+
+#campos-usu-register-2{
+    top: 20%;
+}
+
+#campos-usu-register-3{
+    top: 30%;
+}
+
+#campos-usu-register-4{
+    top: 40%;
+}
+
+#campos-usu-register-5{
+    top: 50%;
+}
+
+#campos-usu-register-6{
+    top: 60%;
+}
+
+#campos-usu-register-7{
+    top: 70%;
+}
+
+/*Campos de Selección*/
+#campo-radio-8,
+.campo-usu-radio-8,
+#campo-radio-9,
+.campo-usu-radio-9,
+#campo-radio-10,
+.campo-usu-radio-10{
+    position: absolute;
+}
+
+#campo-radio-8,
+#campo-radio-9,
+#campo-radio-10{
+    width: 25px;
+    height: 25px;
+}
+
+.campo-usu-radio-8,
+.campo-usu-radio-9,
+.campo-usu-radio-10{
+    font-size: 25px;
+}
+
+#campo-radio-8{
+    top: 80%;
+    left: 10%;
+}
+
+.campo-usu-radio-8{
+    top: 80%;
+    left: 13%;
+}
+
+#campo-radio-9{
+    top: 80%;
+    left: 43%;
+}
+
+.campo-usu-radio-9{
+    top: 80%;
+    left: 46%;
+}
+
+#campo-radio-10{
+    top: 80%;
+    left: 70%;
+}
+
+.campo-usu-radio-10{
+    top: 80%;
+    left: 73%;
 }
 
 .btn-register{
     width: 100%;
     height: 15%;
     position: relative;
-    background-color: ivory;
+}
+
+.btn-register-usu{
+    width: 13%;
+    height: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+    font-size: 23px;
+    background-color: slategray;
+}
+
+.btn-register-usu > a{
+    color: white;
 }
 /*-------------------------------------------------*/
 footer{
     width: 100vw;
     height: 15vh;
-    /*display: flex;*/
-    background-color: chartreuse;
+    display: flex;
+    /*background-color: chartreuse;*/
+}
+
+.container-copy{
+    width: 70%;
+    height: 100%;
+    /*background-color: crimson;*/
+}
+
+.paragraph-copy{
+    padding: 5vh 17vh 0vh 0vh;
+    text-align: end;
+    font-size: 25px;
+}
+
+.container-img-u{
+    padding: 2vh 0vh 0vh 0vh;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    /*background-color: sienna;*/
+}
+
+.dim-img{
+    width: 80px;
+    height: 80px;
 }
